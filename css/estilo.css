@@ -2,6 +2,7 @@ body
 {
     text-align: center;
     font-family: sans-serif;
+    margin: 0;
 }
 
 .blog{
@@ -12,4 +13,16 @@ body
 
 .blog p{
     font-size: 20px;
+}
+
+nav{
+    background-color: aqua;
+    margin: 0;
+    height: 60px;
+    text-align: left;
+}
+
+nav p{
+    font-size: 30px;
+    font-weight: bold;
 }
