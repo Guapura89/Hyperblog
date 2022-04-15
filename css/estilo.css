@@ -5,14 +5,28 @@ body
     margin: 0;
 }
 
+.container{
+    display: grid;
+    place-content: center;
+    height: 90vh;
+    width: 100%;
+}
+
 .blog{
     border: 1px solid black;
     width: 60%;
-    display: inline-block;
+    margin: 0 auto;
+    height: 300px;
 }
 
 .blog p{
     font-size: 20px;
+}
+
+.tag{
+    margin-left: 50px;
+    color: #1f203dd9;
+    font-size: 24px;
 }
 
 nav{
@@ -20,9 +34,18 @@ nav{
     margin: 0;
     height: 60px;
     text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 nav p{
     font-size: 30px;
     font-weight: bold;
+    display: inline-block;
+}
+
+nav img{
+    width: 50px;
+    margin: 10px;
 }
